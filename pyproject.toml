@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "repl_python3_beta_alive-progress"
+version = "0.1.0"
+description = "A progress bar made using alive-progress that gives a message of an error (Not a real error) at a random time!"
+authors = ["Taheem Akter taheem.akter@gmail.com"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+alive-progress = "^1.6.2"
+
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
