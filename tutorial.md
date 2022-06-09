@@ -108,7 +108,7 @@ So we find out if `count` = 0. If it is, it will print `Initializing...`, and ad
 
 Our `elif` statement will print out the other statements.
 
-We do `elif`, then `i % randint(100, 700) == 0` so that it will do a random number everytime to be divided by `i`, and then we put `and count != 0` so that it only prints out when `count` does not equal 0.
+We do `elif`, then `i % randint(100, 700) == 0` so that it will do a random number, and then we will get i, the number we are at (**615**/1000), and divide it by the random number we generated and then we put `and count != 0` so that it only prints out when `count` does not equal 0.
 
 It will print `We ran into an internal error... Please Wait`, or whatever statement you want to use. Then it will randomly generate a number between 1 and 5 using `sleep(randint(1, 5))`. After that it will print`Error Fixed.`, or again, whatever atatement you want.
 
@@ -151,10 +151,10 @@ Now, the last we need to do is call the function we created, and voila! A fully 
 
 And I almost forgot!
 
-If you want to change the type of bar/spinner, just do `from alive_progress import show_bars(), show_spinners()`, and use either or to make the program show the bars/spinner
+If you want to see the bars and spinners they have to offer, just do `from alive_progress import show_bars(), show_spinners()`
 ***
 > Please excuse all the grammar/spelling mistakes, I finished this really quickly.
 
-> And if you see that the repl linked over here on this post has color and yours doesn't, it's because I created this tutorial before I added the color 
+> This code also has color and the tutorial does not, it is because I added the color after I made the tutorial.
 ***
 ## Hope you benefit from this tutorial!

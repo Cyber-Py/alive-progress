@@ -8,19 +8,22 @@ def clear():
 
 def InitColor(red = 0, green = 0, blue = 0, bold = False, dim = False, italic = False, underlined = False, swap_foreground_and_bg_colors = False, hidden = False, reset = False,reset_all = False):
   '''
+  ```
   red, green, and blue: color to use throughout the code unless changed
   the rest of the parameters are for customization of the text
   reset: resets the attributes (Does not include the colors)
   reset_all: resets all of the attributes (Including colors)
-  '\033[0m' - Resets all color and formats
-  '\033[1m' - Creates bold text
-  '\033[2m' - Creates dim text
-  '\033[3m' - Creates italic text
-  '\033[4m' - Creates underlined text
-  '\033[7m' - Swaps foreground and background colors
-  '\033[8m' - Hides text
+  
+  `\033[0m` - Resets all color and formats
+  `\033[1m` - Creates bold text
+  `\033[2m` - Creates dim text
+  `\033[3m` - Creates italic text
+  `\033[4m` - Creates underlined text
+  `\033[7m` - Swaps foreground and background colors
+  `\033[8m` - Hides text
   -----------------------
-  \033[38;2;{RED};{BLUE};0m
+  \033[38;2;{RED};{GREEN};{BLUE}m
+  ```
   '''
   if red > 255 or green > 255 or blue > 255 or red < 0 or green < 0 or blue < 0:
     print(f'Try again; Your inputs were{red}{green}{blue}.\n One of them was too high or too low.')
