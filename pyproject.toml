@@ -1,8 +1,8 @@
 [tool.poetry]
 name = "repl_python3_beta_alive-progress"
-version = "0.1.0"
+version = "0.1.1"
 description = "A progress bar made using alive-progress that gives a message of an error (Not a real error) at a random time!"
-authors = ["Taheem Akter taheem.akter@gmail.com"]
+authors = ["LeShuriken1@GMail.com", "CyberPy01@GMail.com"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
