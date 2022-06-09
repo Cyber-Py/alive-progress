@@ -105,3 +105,4 @@ def bar(amount = 1000, starting_string = 'Initializing...', bar = 'bubbles', spi
     
 InitColor(red = 0, green = 255, blue = 0)
 bar()
+
